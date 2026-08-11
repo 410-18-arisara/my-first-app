@@ -1,0 +1,7 @@
+import streamlit as st
+
+st.markdown("# :red[🏋️ คำนวณค่าดัชมวลกาย BMI]")
+st.write("กรอกข้อมูลนํ้าหนักและส่วนสูงของคุณ เพื่อเช็กสุขภาพเบื้องต้น")
+
+weight = st.number_input ("กรอกนํ้าหนักของคุณ (กิโลกรัม):", min_value=1.0, value=1.0)
+height_cm = st.number_input ("กรอกส่วนสูงของคุณ (เซนติเมตร):", min_value=1.0, value=1.0)
