@@ -100,4 +100,4 @@ if st.session_state.get("is_ended", False):
     show_result_dialog(ans1, ans2)
 
 st.divider()
-st.write("นางสาวดีใจ ยิ้มแฉ่ง เลขที่ 5 ม.4/5")
+st.write("นางสาวอริสรา ไทยทัตกุล เลขที่ 18 ม.4/10")
