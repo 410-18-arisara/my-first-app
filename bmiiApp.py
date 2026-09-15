@@ -4,7 +4,7 @@ st.markdown("# :red[🏋️ คำนวณค่าดัชนีมวลก�
 st.write("กรอกข้อมูลน้ำหนักและส่วนสูงของคูณ เพื่อเช็คสุขภาพเบื้องต้น")
 
 Weight = st.number_input("กรอกน้ำหนักของคุณ (กิโลกรัม):", min_value=1.0, value=1.0)
-Height_cm = st.number_input("กรอกน้ำส่วนสูงของคุณ (เซนติเมตร):", min_value=1.0, value=1.0)
+height_cm = st.number_input("กรอกน้ำส่วนสูงของคุณ (เซนติเมตร):", min_value=1.0, value=1.0)
 
 if st.button("คำนวณค่า BMI 🎯"):
       # แปลงส่วนสูงจาก cm เป็น เมตร แล้วคำนวณ BMI
