@@ -24,7 +24,7 @@ if st.button("คำนวณค่า BMI 🎯"):
         st.success("สุขภาพดี")
     elif bmi < 25.0:
         st.info("ท้วม")
-    else:
+    elif bmi < 30.0:
         st.error("อ้วน")
 
 
