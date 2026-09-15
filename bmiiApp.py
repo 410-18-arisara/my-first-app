@@ -14,14 +14,14 @@ if st.button("คำนวณค่า BMI 🎯"):
       st.write("---")
       st.header(f"ค่า BMI ของคุณคือ: **{bmi: .2f}**")
 
-           if bmi < 18.5:
-              st.warning(" คุณมีน้ำหนักน้อยกว่าเกณฑ์ (ผอม)")
-           elif bmi < 23.0:
-              st.success = "สุขภาพดี"
-           elif bmi < 25.0:
-              st.info = "ท้วม"
-           else:
-              st.error = "อ้วน"
+if bmi < 18.5:
+   st.warning(" คุณมีน้ำหนักน้อยกว่าเกณฑ์ (ผอม)")
+elif bmi < 23.0:
+   st.success = "สุขภาพดี"
+elif bmi < 25.0:
+   st.info = "ท้วม"
+else:
+   st.error = "อ้วน"
 
 st.divider()
 st.write("นางสาวอริสรา ไทยทัตกุล เลขที่ 18 ม.4/10")
