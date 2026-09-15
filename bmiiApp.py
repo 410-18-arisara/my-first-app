@@ -23,5 +23,6 @@ elif bmi < 25.0:
 else:
    st.error = "อ้วน"
 
+
 st.divider()
 st.write("นางสาวอริสรา ไทยทัตกุล เลขที่ 18 ม.4/10")
